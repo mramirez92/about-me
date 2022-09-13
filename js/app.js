@@ -1,8 +1,9 @@
 let visitorName= prompt('Hey, welcome! What\'s your name?')
+//console.log('visitname promfjfjfjfjfj')
 alert (`Nice to meet you, ${visitorName}. Lets play a guessing game so you can get to know me! Yes or no responses please.`);
 
 let birdQuestion= prompt('One of my favorite hobbies is to bird watch, yes or no?').toLowerCase();
-
+// console.log('if birdQuestion=== yes, correct');//
 if (birdQuestion === 'yes'){
   alert('I love birds, I keep track of the birds I\'ve seen.');
 }
@@ -13,6 +14,8 @@ else if(birdQuestion === 'no'){
 }
 
 let pythonQuestion = prompt('Was Python my first coding language?').toLowerCase();
+// console.log('if pythonQuestion=== yes, correct');//
+
 
 if (pythonQuestion === 'yes'){
   alert('You are correct, python for the win!');
@@ -25,6 +28,8 @@ else{
 }
 
 let sonQuestion= prompt('Am I a mom?').toLowerCase();
+// console.log('sonQuestion=== yes, correct');//
+
 
 if (sonQuestion === 'yes'){
   alert('You\'re right! He\'s is a sweet little person.');
@@ -37,6 +42,8 @@ else{
 }
 
 let swimmingQuestion = prompt('Do I know how to swim?').toLowerCase();
+// console.log('if swimmingQuestion=== yes, correct');//
+
 
 if (swimmingQuestion === 'yes'){
   alert('Unfortunately I don\'t know how to swim. I am currently learning.');
@@ -49,6 +56,8 @@ else{
 }
 
 let keyboardQuestion= prompt('Did I go out my way to purchase a loud keyboard for this class?').toLowerCase();
+// console.log('if keyboardQuestion=== yes, correct');//
+
 if (keyboardQuestion === 'yes'){
   alert('You guessed right! I love the clicking clacking sounds.');
 }
