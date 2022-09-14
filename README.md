@@ -16,17 +16,13 @@ Include logo/demo screenshot etc.
 VS code
 Github
 
-
-## Code Example
-Show what the library does as concisely as possible, developers should be able to figure out how your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
-
 ## Installation
 
-Provide step by step series of examples and explanations about how to get a development env running.
+clone from github onto local machine using terminal. 
 
 ## Usage
 
-If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
+Used to learn more about me, please send feedback and tips as to how to make page more dynamic. Any feedback is welcomed. 
 
 
 ## Credits
@@ -35,6 +31,9 @@ README.MD layout from [Akash at meakaakka.medium.com](https://meakaakka.medium.c
 
 MIT license short snippet provided by [Git](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
+HTML & CSS reading resources[w3schools](https://www.w3schools.com/)
+
+Color Scheme created by [coolors](https://coolors.co/)
 
 ## Licenses
 
