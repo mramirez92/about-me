@@ -92,17 +92,17 @@ while(ageAttempts>0){
 //question 7 loop, need to fix
 // let fruitLoop = ['mango', 'grapefruit', 'watermelon', 'strawberries'];
 // for (let i=0; i<6; i++){
-  //   let userGuess = prompt('Not a fan of sweets, but I do love fruit. Guess one of my favorite fruits.').toLowerCase();
-  //   for (let n=0; n<fruitLoop.length; n++){
-    //     if(userGuess === fruitLoop[n]){
-      //       alert (`I love ${userGuess}!`);
-      //       i=6;
-      //     }else if (i===0){
-        //     alert(`All good guesses, but not quite right. Here are some of my favorite fruits: ${fruitLoop[0]}, ${fruitLoop[1]}, ${fruitLoop[2]}, and ${fruitLoop[3]}.`);
-        //   }  
-}
-// alert(`All good guesses, but not quite right. Here are some of my favorite fruits: ${fruitLoop[0]}, ${fruitLoop[1]}, ${fruitLoop[2]}, and ${fruitLoop[3]}. `)
-
+// let userGuess = prompt('Not a fan of sweets, but I do love fruit. Guess one of my favorite fruits.').toLowerCase();
+// for (let n=0; n<fruitLoop.length; n++){
+// if(userGuess === fruitLoop[n]){
+//   alert (`I love ${userGuess}!`);
+//   i=6;
+// }else if (i===0){
+// alert(`All good guesses, but not quite right. Here are some of my favorite fruits: ${fruitLoop[0]}, ${fruitLoop[1]}, ${fruitLoop[2]}, and ${fruitLoop[3]}.`);
+// }  
+// }
+// alert(`All good guesses, but not quite right. Here are some of my favorite fruits: ${fruitLoop[0]}, ${fruitLoop[1]}, ${fruitLoop[2]}, and ${fruitLoop[3]}. `);
+// }
 
 alert(`Thank for allowing me to share with you, ${visitorName}. You guessed ${userScore} out of 7 answers correctly. If you want to know a little more about me keep reading.`);
 
