@@ -98,10 +98,10 @@ for (let i=0; i<6; i++){
     if(userGuess === fruitLoop[n]){
       i=6;
       alert (`I love ${userGuess}!`);
-      userScore++;
+      // userScore++;
     }
   }
-  // if(i===0 && userGuess!==fruitloop[n]){
-  //   alert(`All good guesses, but not quite right. Here are some of my favorite fruits: ${fruitLoop[0]}, ${fruitLoop[1]}, ${fruitLoop[2]}, and ${fruitLoop[3]}. `);
+// if(i===0 && userGuess!==fruitloop[n]){
+//  alert(`All good guesses, but not quite right. Here are some of my favorite fruits: ${fruitLoop[0]}, ${fruitLoop[1]}, ${fruitLoop[2]}, and ${fruitLoop[3]}. `);
 }
-alert(`Thank for allowing me to share with you, ${visitorName}. You guessed ${userScore} out of 7 answers correctly. If you want to know a little more about me keep reading.`);
+// alert(`Thank for allowing me to share with you, ${visitorName}. You guessed ${userScore} out of 7 answers correctly. If you want to know a little more about me keep reading.`);
