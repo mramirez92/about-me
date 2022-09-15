@@ -42,22 +42,85 @@ nav{
 h2{
   font-size: 4vh;
   color: rgb(192, 132, 151);
-  text-anchor:start;
-  text-align:start;
+  /* text-anchor:start; */
+  text-align:left;
+  margin-top:15px;
+  margin-bottom:15px;
 }
 section{
   
   font-size: 3vh; 
-  text-align:inherit;
-  padding: 30px;
+  text-align:left;
+  padding: 50px;
   margin: 25px;
   border-radius: 25px;
   width: auto;
   height:auto;
   background-color:rgb(247, 227, 175);
+
 }
 footer{
   margin-left:inherit;
   text-align: center;
   color:rgb(42, 61, 69);
+}
+ol li{
+  align-content: flex-start;
+  list-style:decimal;
+  border-left: 20px;
+  border-top: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: justify;
+}
+ol li::marker {
+  color:rgb(227, 133, 79);
+  font-weight:lighter;
+  
+}
+
+ul {
+  align-content: flex-start;
+  list-style:decimal;
+  border-left: 20px;
+  border-top: 20px;
+  margin-top:15px;
+  margin-bottom:15px;;
+  margin-left: 20px;
+  text-align: justify;
+  list-style: disc;
+ 
+}
+ul li::marker{
+  color:rgb(227, 133, 79);
+}
+
+h3{
+  color:rgb(192, 132, 151);
+  margin-top: 20px;
+  border-left: 20px;
+  border-top:20px;
+}
+
+#jspic{
+ width:20px;
+ margin-top: 5px;
+ border:5 px;
+}
+.favlinks{
+  text-align: center;
+  color: white;
+  list-style: none;
+}
+#linkheader{
+  text-align: center;
+  color:rgb(192, 132, 151);
+  margin-top:15px;
+  margin-bottom:15px;
+}
+a{
+  margin: 20px;;
+  border: 20px;
+  text-decoration:underline;
+  text-decoration-color:rgb(227, 133, 79);
 }
