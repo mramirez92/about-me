@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap" rel="stylesheet"> 
     
       </head>
   <body>
@@ -18,13 +18,15 @@
     
     <div class="navbar">
       <nav> 
-        <p>Codings things</p>
-        <a href="https://github.com/mramirez92">My Github</a>
-        <p>Favorite things</p>
-        <a href="https://artsandculture.google.com/?hl=en">Art</a>
-        <a href="https://www.audubon.org/bird-guide">Birds</a>
-        <a href="https://www.youtube.com/c/eons">Dinosaurs</a>
-      
+        <h3 id="linkheader">Codings things</h3>
+        <ul class="favlinks">
+          <li><a href="https://github.com/mramirez92">My Github</a></li></ul>
+        <h3 id="linkheader">Favorite things<h3></h3>
+        <ul class="favlinks">
+        <li><a href="https://artsandculture.google.com/?hl=en">Art</a></li>
+        <li><a href="https://www.audubon.org/bird-guide">Birds</a></li>
+        <li><a href="https://www.youtube.com/c/eons">Dinosaurs</a></li>
+      </ul>
       </nav>
     </div>
 
@@ -38,6 +40,21 @@
     <section>
     <h2>What lead me here?</h2>
     <p>I was a stay at home mom and wife for quite some time. I am incredibly grateful to be able to have had that opportunity. I got see watch my son grow up and experience so many things with him. I did go so college, but I never believed in myself enough to push myself hard enough. I gave up on myself and tried something else. I ventured into the networking world through Cisco, but I didn't enjoy. I work retail... and I'm tired of it. I want more, I know I can do more. Somehow I found coding, it was the first time in a long time I felt truly happy. I got sucked in and I haven't left. I'm in this moment in my life where I'm learning. That's my favorite word right now.</p>
+   
+    <h3>Education</h3>
+    <ul>
+      <li>Code Fellows</li>
+      <li>CCNA Networking Academy</li>
+      <li>Houston Community College</li>
+      <li>Heights High School</li>
+      </ul>
+    <h3>Experience</h3>
+    <ul>
+      <li>Python&#128013;
+      </li>
+      <li>CSS and HTML</li>
+      <li>JavaScript<img id="jspic"src=https://openclipart.org/download/272344/1486640958.svg></li>
+    </ul>
     </section>
 
     <section>
@@ -51,9 +68,25 @@
       <div>
         <p> In my free time, you can find me in the gym lifting weights. I am an avid music fan, I will listen to everything from Rammstein to Valentin Elizalde to some Connie Francis. I also enjoy drawing, especially faces. I love puns and dad jokes. The more awkward and not funny the better. As I mentioned before I enjoy bird watching. Birds are literally dinosaurs. Also I love dinosaurs, my favorite being the Spinosaurus. 
       </p>
-      <img src="img/20220816_090351_02.jpg">
+      <!-- <img src="img/20220816_090351_02.jpg"> -->
     </div>
     </section>
+    <section>
+      <h2>Ten songs that are always on replay for me:</h2>
+
+      <ol>
+        <li>Rammstein "Bestrafe mich"</li>
+        <li>Tears for Fears "Head Over Heels"</li>
+        <li>Chris Stapleton "Tennessee Whiskey"</li>
+        <li>Cho Young-Wuk "Cries and Whispers"</li>
+        <li>Gustav Mahler "Piano Quartet in A Minor:l.Allegro"</li>
+        <li>Paul Anka "Put Your Head On My Shoulders"</li>
+        <li>Orville Peck "Roses Are Falling"</li>
+        <li>No Doubt "Bathwater"</li>
+        <li>Britney Spears "...Baby One More Time"</li>
+      </ol>
+    </section>
+
     </main>
     
     <script src="js/app.js"></script>
@@ -62,6 +95,6 @@
 
   <footer>
     &copy; Monica Ramirez
-    <p>Font provided by <a href="https://fonts.google.com/">Google Fonts<a></p>
+    <p>Font provided by <a id="fontlink" href="https://fonts.google.com/">Google Fonts<a></p>
   </footer>
 </html>
