@@ -37,7 +37,7 @@ Color Scheme created by [coolors](https://coolors.co/)
 
 Code help and assistance from [Eric Mungai Kinuthia](https://github.com/EricMungai97)
 
-Driver: Dayo Akin; Declareed functions usinng existing loops, and invoked functions.
+Driver: Dayo Akin; Declared functions using existing loops, and invoked functions.
 Navigator: Monica Ramirez;
 
 ## Licenses
