@@ -35,6 +35,8 @@ HTML & CSS reading resources[w3schools](https://www.w3schools.com/)
 
 Color Scheme created by [coolors](https://coolors.co/)
 
+Code help and assistance from [Eric Mungai Kinuthia](https://github.com/EricMungai97)
+
 ## Licenses
 
 Copyright (c) 2012-2022 Scott Chacon and others
