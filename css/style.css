@@ -4,9 +4,6 @@ body{
   color: rgb(42, 61, 69);
   margin-left: 160px;
 
-
-
-
 }
 h1{
   background-color: rgb(192, 132, 151);
@@ -109,7 +106,6 @@ h3{
 }
 .favlinks{
   text-align: center;
-  color: white;
   list-style: none;
 }
 #linkheader{
@@ -124,3 +120,6 @@ a{
   text-decoration:underline;
   text-decoration-color:rgb(227, 133, 79);
 }
+/* div{
+  position: fixed;
+} */
