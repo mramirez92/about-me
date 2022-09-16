@@ -1,7 +1,9 @@
 # about-me
+
 Project for Code Fellows course 201, lab02. A simple project for my peers to get to know me a little better.
 
 ## Motivation
+
 This project was created to hone in my skills as a beginner software engineer. A practice in learning conditional statements in JavaScript, HTML structure and CSS styling.
 
 ## Code style
@@ -9,6 +11,7 @@ This project was created to hone in my skills as a beginner software engineer. A
 js-strict-style
 
 ## Screenshots
+
 Include logo/demo screenshot etc.
 
 ## Tools
@@ -18,12 +21,11 @@ Github
 
 ## Installation
 
-clone from github onto local machine using terminal. 
+clone from github onto local machine using terminal.
 
 ## Usage
 
-Used to learn more about me, please send feedback and tips as to how to make page more dynamic. Any feedback is welcomed. 
-
+Used to learn more about me, please send feedback and tips as to how to make page more dynamic. Any feedback is welcomed.
 
 ## Credits
 
@@ -37,8 +39,10 @@ Color Scheme created by [coolors](https://coolors.co/)
 
 Code help and assistance from [Eric Mungai Kinuthia](https://github.com/EricMungai97)
 
-Driver: Dayo Akin; Declared functions using existing loops, and invoked functions.
+Driver: [Dayo Akin] (<https://github.com/Dayo-Akinsola/Dayo-Akinsola>); Declared functions using existing loops, and invoked functions.
 Navigator: Monica Ramirez;
+
+Code help and assistance for loops inside "questionSeven" function. [Elias Staehle](https://github.com/EDStaehle)
 
 ## Licenses
 
