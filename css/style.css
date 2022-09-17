@@ -3,8 +3,8 @@ body{
   background-color: rgb(243, 238, 195);
   color: rgb(42, 61, 69);
   margin-left: 160px;
-
 }
+
 h1{
   background-color: rgb(192, 132, 151);
   color: rgb(42, 61, 69); 
@@ -12,8 +12,31 @@ h1{
   padding: 30px;
   text-align: center;
   text-anchor: middle;
- }
+}
 
+ nav{
+   height: 100%;
+   width: 160px;
+   position:fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: rgb(176, 208, 211);
+   overflow-x: hidden;
+   padding-top: 100px;
+   border-radius: 10;
+   text-anchor: middle;
+   text-align: center;
+}
+ 
+a{
+     margin: 20px;;
+     border: 20px;
+     text-decoration:underline;
+     text-decoration-color:rgb(227, 133, 79);
+}
+   
+   
 img{
 float:inherit;
 height: 20%;
@@ -21,21 +44,6 @@ width: 20%;
 object-fit: contain;
 }
 
-nav{
-  height: 100%;
-  width: 160px;
-  position:fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(176, 208, 211);
-  overflow-x: hidden;
-  padding-top: 100px;
-  border-radius: 10;
-  text-anchor: middle;
-  text-align: center;
-
-  }
 h2{
   font-size: 4vh;
   color: rgb(192, 132, 151);
@@ -44,6 +52,7 @@ h2{
   margin-top:15px;
   margin-bottom:15px;
 }
+
 section{
   
   font-size: 3vh; 
@@ -55,11 +64,6 @@ section{
   height:auto;
   background-color:rgb(247, 227, 175);
 
-}
-footer{
-  margin-left:inherit;
-  text-align: center;
-  color:rgb(42, 61, 69);
 }
 ol li{
   align-content: flex-start;
@@ -114,12 +118,9 @@ h3{
   margin-top:15px;
   margin-bottom:15px;
 }
-a{
-  margin: 20px;;
-  border: 20px;
-  text-decoration:underline;
-  text-decoration-color:rgb(227, 133, 79);
-}
-/* div{
-  position: fixed;
-} */
+
+footer{
+    margin-left:inherit;
+    text-align: center;
+    color:rgb(42, 61, 69);
+  }
