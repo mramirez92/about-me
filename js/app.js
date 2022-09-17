@@ -1,12 +1,10 @@
 let userScore = 0;
 
 let visitorName = prompt('Hey, welcome! What\'s your name?');
-//console.log('visitor name')
 alert(`Nice to meet you, ${visitorName}. Lets play a guessing game so you can get to know me! Yes or no responses please.`);
 
 function questionOne() {
   let birdQuestion = prompt('One of my favorite hobbies is to bird watch, yes or no?').toLowerCase();
-  // console.log('if birdQuestion=== yes, correct');//
   if (birdQuestion === 'yes' || birdQuestion === 'y') {
     alert('I love birds, I keep track of the birds I\'ve seen.');
     userScore++;
@@ -20,7 +18,6 @@ function questionOne() {
 
 function questionTwo() {
   let pythonQuestion = prompt('Was Python my first coding language?').toLowerCase();
-  // console.log('if pythonQuestion=== yes, correct');//
   if (pythonQuestion === 'yes' || pythonQuestion === 'y') {
     alert('You are correct, python for the win!');
     userScore++;
@@ -35,7 +32,6 @@ function questionTwo() {
 
 function questionThree() {
   let sonQuestion = prompt('Am I a mom?').toLowerCase();
-  // console.log('sonQuestion=== yes, correct');//
   if (sonQuestion === 'yes' || sonQuestion === 'y') {
     alert('You\'re right! He\'s is a sweet little person.');
     userScore++;
@@ -50,7 +46,6 @@ function questionThree() {
 
 function questionFour() {
   let swimmingQuestion = prompt('Do I know how to swim?').toLowerCase();
-  // console.log('if swimmingQuestion=== yes, correct');//
   if (swimmingQuestion === 'yes' || swimmingQuestion === 'y') {
     alert('Unfortunately I don\'t know how to swim. I am currently learning.');
   }
@@ -65,7 +60,6 @@ function questionFour() {
 
 function questionFive() {
   let keyboardQuestion = prompt('Did I go out my way to purchase a loud keyboard for this class?').toLowerCase();
-  // console.log('if keyboardQuestion=== yes, correct');//
   if (keyboardQuestion === 'yes' || keyboardQuestion === 'y') {
     alert('You guessed right! I love the clicking clacking sounds.');
     userScore++;
