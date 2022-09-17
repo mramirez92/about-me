@@ -35,7 +35,7 @@ function questionTwo() {
 
 function questionThree() {
   let sonQuestion = prompt('Am I a mom?').toLowerCase();
-  console.log('sonQuestion=== yes, correct');//
+  // console.log('sonQuestion=== yes, correct');//
   if (sonQuestion === 'yes' || sonQuestion === 'y') {
     alert('You\'re right! He\'s is a sweet little person.');
     userScore++;
@@ -101,40 +101,23 @@ function questionSix() {
   }
 }
 
-
 function questionSeven(){
   let fruitLoop = ['mango', 'grapefruit', 'watermelon', 'strawberries'];
-  let correctFruit= false;
+  let correct = false;
   let numAttempt=6;
   for (let i = 0; i < numAttempt; i++) {
     let userGuess = prompt('Not a fan of sweets, but I do love fruit. Guess one of my favorite fruits.').toLowerCase();
-    for (let n = 0; n < fruitLoop.length; n++) {
-      if (userGuess === fruitLoop[n]) {
-        i = 6;
+    for (let j = 0; j < fruitLoop.length; j++) {
+      if (userGuess === fruitLoop[j]) {
         alert(`I love ${userGuess}!`);
-        correctFruit = true;
+        correct = true;
         userScore++;
         break;
-      }else{
-        while(userGuess!==fruitLoop[n] && numAttempt>0){
-          userGuess=prompt('not correct').toLowerCase();
-          numAttempt--;
-          alert(`you have ${numAttempt} attempts left`);
-        }if (userGuess===fruitLoop[n]){
-          alert('correct');
-          userScore++;
-          break;
-        }
-        if (numAttempt===0){
-          alert(`All good guesses, but not quite right. Here are some of my favorite fruits: ${fruitLoop[0]}, ${fruitLoop[1]}, ${fruitLoop[2]}, and ${fruitLoop[3]}.`);
-          break;
-        }
-      } if (correctFruit===true){
-        break;
       }
+    }if (correct===true){
+      break;
     }
-
-  }
+  }alert(`All good guess. Here are my favorites: ${fruitLoop[0]}, ${fruitLoop[1]}, ${fruitLoop[2]}, and ${fruitLoop[3]}. `);
 }
 
 questionOne();
